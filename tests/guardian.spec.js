@@ -8,6 +8,6 @@ test('Guardian',async({page})=>{
 
     await page.locator('#passwordInput').fill('Kpmgdevqwert@2026');
     await page.locator('#submitButton').click();
-    await page.waitForTimeout(9000);
+   
 
 })
