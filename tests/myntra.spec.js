@@ -29,7 +29,9 @@ await page.locator('[name="field-keywords"]').fill('headphones');
 await page.locator('#nav-search-submit-button').click();
 await page.waitForTimeout(2000);
 await page.locator('[alt*="ENC (Indigo Blue)"]').click();
-await page.waitfortimeout(3000);
+
+Name ="Surya"
+age=50
 })
 
 
